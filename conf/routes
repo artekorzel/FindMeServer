@@ -1,0 +1,5 @@
+GET     /                           controllers.Application.index
+
+POST    /location/save              controllers.MobileApi.saveLocation
+
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
